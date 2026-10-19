@@ -1,5 +1,106 @@
 {
-	"format": "lienzo-kits",
-	"version": 1,
-	"kits": []
+    "format": "lienzo-kits",
+    "version": 1,
+    "kits": [
+        {
+            "id": "minimal",
+            "order": 1,
+            "name": "Minimal",
+            "description": "Para estudios creativos, fotógrafos y profesionales independientes. Blanco y negro, mucho aire y un solo acento.",
+            "version": "1.0.0",
+            "tags": [
+                "Portafolio",
+                "Estudio",
+                "Freelance"
+            ],
+            "colors": [
+                "#111111",
+                "#18181b",
+                "#18181b",
+                "#e11d48"
+            ],
+            "preview": "preview.webp",
+            "pages": [
+                "Inicio",
+                "Estudio",
+                "Proyectos",
+                "Contacto"
+            ]
+        },
+        {
+            "id": "corporativo",
+            "order": 2,
+            "name": "Corporativo",
+            "description": "Para despachos, consultoras y empresas de servicios. Azul de confianza, cifras, casos de éxito y planes.",
+            "version": "1.0.0",
+            "tags": [
+                "Empresa",
+                "Consultoría",
+                "Servicios"
+            ],
+            "colors": [
+                "#1d4ed8",
+                "#0b1b3f",
+                "#0f172a",
+                "#f59e0b"
+            ],
+            "preview": "preview.webp",
+            "pages": [
+                "Inicio",
+                "Servicios",
+                "Nosotros",
+                "Contacto"
+            ]
+        },
+        {
+            "id": "calido",
+            "order": 3,
+            "name": "Cálido",
+            "description": "Para cafeterías, restaurantes y panaderías. Tonos tierra, tipografía con serifa, carta de precios y reservas.",
+            "version": "1.0.0",
+            "tags": [
+                "Restaurante",
+                "Cafetería",
+                "Comida"
+            ],
+            "colors": [
+                "#b45309",
+                "#2b1d14",
+                "#292524",
+                "#f2b55b"
+            ],
+            "preview": "preview.webp",
+            "pages": [
+                "Inicio",
+                "La carta",
+                "Nosotros",
+                "Reservas"
+            ]
+        },
+        {
+            "id": "tienda",
+            "order": 4,
+            "name": "Tienda",
+            "description": "Para tiendas en línea de productos y regalos. Tarjetas de producto, categorías, ventajas de compra y boletín. Con WooCommerce añade carrito y catálogo real.",
+            "version": "1.0.0",
+            "tags": [
+                "Tienda",
+                "WooCommerce",
+                "Productos"
+            ],
+            "colors": [
+                "#ea580c",
+                "#1c1917",
+                "#1c1917",
+                "#facc15"
+            ],
+            "preview": "preview.webp",
+            "pages": [
+                "Inicio",
+                "Colección",
+                "Nosotros",
+                "Contacto"
+            ]
+        }
+    ]
 }
