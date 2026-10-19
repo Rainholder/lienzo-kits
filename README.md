@@ -20,9 +20,15 @@ Cada kit trae colores, fuentes, estilos de botón, estilo del sitio, cabecera, p
 - `kits/<id>/preview.webp`: miniatura de la galería (800×600).
 - `kits/<id>/img/`: fotos del kit en WebP.
 - `tools/`: generador de kits.
-- `theme/`: tema «Lienzo», 100 % compatible con el plugin.
+- `theme/lienzo-theme/`: tema «Lienzo», 100 % compatible con el plugin; `theme/lienzo-theme.zip` es lo que instala el plugin (se genera con `python tools/build-theme.py`).
 
 El plugin lee de `https://cdn.jsdelivr.net/gh/Rainholder/lienzo-kits@main/kits/`.
+
+## Tema Lienzo
+
+Tema clásico ligero (unos 13 KB de código; el zip pesa unos 110 KB por la captura): usa los colores, fuentes y estilo del sitio de Lienzo en todas las páginas (declara `add_theme_support( 'lienzo' )`) y deja que Lienzo pinte cabecera, pie y páginas; si no hay plantillas de Lienzo, trae su propia cabecera, pie, blog, entrada, 404, comentarios y WooCommerce. Traducido al español. El plugin lo sugiere en un aviso con instalación y activación en un clic.
+
+Al cambiar el tema: sube `Version` en `style.css` y `LIENZO_THEME_VERSION` en `functions.php`, regenera el zip y, si cambian textos, el `.pot`/`.po`/`.mo` de `languages/`.
 
 ## Generar los kits
 

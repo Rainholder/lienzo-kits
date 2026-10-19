@@ -1,0 +1,106 @@
+# Copyright (C) 2026 Lienzo
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lienzo 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/lienzo-theme\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es_ES
+"
+"Plural-Forms: nplurals=2; plural=(n != 1);
+"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-20T00:23:23+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: lienzo-theme\n"
+
+#. Theme Name of the theme
+#. Author of the theme
+#: style.css
+msgid "Lienzo"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/Rainholder/lienzo-kits"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A light theme, 100% compatible with the Lienzo builder. It uses Lienzo's colors, fonts and site style across the whole site (posts, archives, search, comments and WooCommerce) and lets Lienzo draw the header, footer and pages. No dependencies, no heavy scripts."
+msgstr "Tema ligero y 100 % compatible con el constructor Lienzo. Usa los colores, las fuentes y el estilo del sitio de Lienzo en todo el sitio (entradas, archivos, búsqueda, comentarios y WooCommerce) y deja que Lienzo pinte la cabecera, el pie y las páginas. Sin dependencias ni scripts pesados."
+
+#. Author URI of the theme
+#: style.css
+msgid "https://github.com/Rainholder"
+msgstr ""
+
+#: 404.php:15
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: 404.php:16
+msgid "The page you are looking for does not exist or has moved. Try searching or go back home."
+msgstr "La página que buscas no existe o ha cambiado de dirección. Prueba a buscar o vuelve al inicio."
+
+#: 404.php:19
+msgid "Back to home"
+msgstr "Volver al inicio"
+
+#. translators: %s: número de comentarios
+#: comments.php:19
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s comentario"
+msgstr[1] "%s comentarios"
+
+#: footer.php:20
+#: functions.php:36
+msgid "Footer menu"
+msgstr "Menú del pie"
+
+#: functions.php:35
+#: header.php:28
+msgid "Main menu"
+msgstr "Menú principal"
+
+#: header.php:19
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: header.php:27
+msgid "Menu"
+msgstr "Menú"
+
+#. translators: %s: términos buscados
+#: index.php:20
+#, php-format
+msgid "Results for “%s”"
+msgstr "Resultados para «%s»"
+
+#: index.php:30
+msgid "Latest posts"
+msgstr "Últimas entradas"
+
+#: index.php:53
+msgid "Nothing found. Try another search."
+msgstr "No se encontró nada. Prueba con otra búsqueda."
+
+#. translators: 1: fecha, 2: autor
+#: singular.php:34
+#, php-format
+msgid "%1$s · by %2$s"
+msgstr "%1$s · por %2$s"
+
+#: singular.php:58
+msgid "Previous"
+msgstr "Anterior"
+
+#: singular.php:59
+msgid "Next"
+msgstr "Siguiente"
