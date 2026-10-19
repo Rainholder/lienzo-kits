@@ -1,0 +1,8 @@
+{
+	"version": "1.0.0",
+	"package": "https://cdn.jsdelivr.net/gh/Rainholder/lienzo-kits@theme-v1.0.0/theme/lienzo-theme.zip",
+	"url": "https://github.com/Rainholder/lienzo-kits",
+	"requires": "6.4",
+	"requires_php": "8.0",
+	"changes": "Primera versión."
+}

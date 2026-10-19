@@ -28,7 +28,17 @@ El plugin lee de `https://cdn.jsdelivr.net/gh/Rainholder/lienzo-kits@main/kits/`
 
 Tema clásico ligero (unos 13 KB de código; el zip pesa unos 110 KB por la captura): usa los colores, fuentes y estilo del sitio de Lienzo en todas las páginas (declara `add_theme_support( 'lienzo' )`) y deja que Lienzo pinte cabecera, pie y páginas; si no hay plantillas de Lienzo, trae su propia cabecera, pie, blog, entrada, 404, comentarios y WooCommerce. Traducido al español. El plugin lo sugiere en un aviso con instalación y activación en un clic.
 
-Al cambiar el tema: sube `Version` en `style.css` y `LIENZO_THEME_VERSION` en `functions.php`, regenera el zip y, si cambian textos, el `.pot`/`.po`/`.mo` de `languages/`.
+## Publicar versiones nuevas
+
+El plugin avisa solo; esto es lo que lee:
+
+- **Tema** (`theme/version.json`): WordPress lo muestra en Escritorio → Actualizaciones y en Apariencia → Temas, y lo actualiza en un clic. Para publicar:
+  1. Sube `Version` en `style.css` y `LIENZO_THEME_VERSION` en `functions.php` (y, si cambian textos, regenera `languages/`).
+  2. `python tools/build-theme.py "Qué cambia"` (zip + `version.json`, que apunta a la etiqueta `theme-v<versión>`).
+  3. `git add -A && git commit -m "Tema X.Y.Z" && git tag theme-vX.Y.Z && git push --follow-tags`
+- **Kits** (`kits/index.json`): el menú «Kits de diseño» cuenta los kits nuevos y la versión nueva del kit que el sitio aplicó. Para publicar, sube `meta.version` del kit, pon en `meta.changes` una frase con lo que cambia y vuelve a generar con `build.php`.
+
+Los sitios comprueban una vez al día (o con «Buscar kits nuevos»). jsDelivr guarda `@main` en caché hasta 12 horas; para que se vea antes: https://purge.jsdelivr.net/gh/Rainholder/lienzo-kits@main/kits/index.json (y lo mismo con `theme/version.json`).
 
 ## Generar los kits
 
