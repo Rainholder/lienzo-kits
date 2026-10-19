@@ -6,7 +6,7 @@ que el plugin consulta para avisar de versiones nuevas.
 El zip de cada versión se descarga de su etiqueta de git (theme-v<versión>),
 así la caché de jsDelivr nunca sirve uno viejo. Después de generar:
 
-    git add -A && git commit -m "Tema X.Y.Z" && git tag theme-vX.Y.Z && git push --follow-tags
+    git add -A && git commit -m "Tema X.Y.Z" && git tag theme-vX.Y.Z && git push origin main theme-vX.Y.Z
 
 Uso: python tools/build-theme.py "Novedades de esta versión"
 """

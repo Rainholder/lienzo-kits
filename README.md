@@ -35,7 +35,7 @@ El plugin avisa solo; esto es lo que lee:
 - **Tema** (`theme/version.json`): WordPress lo muestra en Escritorio → Actualizaciones y en Apariencia → Temas, y lo actualiza en un clic. Para publicar:
   1. Sube `Version` en `style.css` y `LIENZO_THEME_VERSION` en `functions.php` (y, si cambian textos, regenera `languages/`).
   2. `python tools/build-theme.py "Qué cambia"` (zip + `version.json`, que apunta a la etiqueta `theme-v<versión>`).
-  3. `git add -A && git commit -m "Tema X.Y.Z" && git tag theme-vX.Y.Z && git push --follow-tags`
+  3. `git add -A && git commit -m "Tema X.Y.Z" && git tag theme-vX.Y.Z && git push origin main theme-vX.Y.Z`
 - **Kits** (`kits/index.json`): el menú «Kits de diseño» cuenta los kits nuevos y la versión nueva del kit que el sitio aplicó. Para publicar, sube `meta.version` del kit, pon en `meta.changes` una frase con lo que cambia y vuelve a generar con `build.php`.
 
 Los sitios comprueban una vez al día (o con «Buscar kits nuevos»). jsDelivr guarda `@main` en caché hasta 12 horas; para que se vea antes: https://purge.jsdelivr.net/gh/Rainholder/lienzo-kits@main/kits/index.json (y lo mismo con `theme/version.json`).
