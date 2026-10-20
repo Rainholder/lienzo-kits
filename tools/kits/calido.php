@@ -231,6 +231,7 @@ return array(
 	'meta'      => array(
 		'order'       => 3,
 		'name'        => 'Cálido',
+		'premium'     => true,
 		'description' => 'Para cafeterías, restaurantes y panaderías. Tonos tierra, tipografía con serifa, carta de precios y reservas.',
 		'version'     => '1.0.0',
 		'tags'        => array( 'Restaurante', 'Cafetería', 'Comida' ),

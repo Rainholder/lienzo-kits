@@ -222,6 +222,7 @@ return array(
 	'meta'      => array(
 		'order'       => 4,
 		'name'        => 'Tienda',
+		'premium'     => true,
 		'description' => 'Para tiendas en línea de productos y regalos. Tarjetas de producto, categorías, ventajas de compra y boletín. Con WooCommerce añade carrito y catálogo real.',
 		'version'     => '1.0.0',
 		'tags'        => array( 'Tienda', 'WooCommerce', 'Productos' ),

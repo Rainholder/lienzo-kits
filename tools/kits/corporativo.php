@@ -116,6 +116,7 @@ return array(
 	'meta'      => array(
 		'order'       => 2,
 		'name'        => 'Corporativo',
+		'premium'     => true,
 		'description' => 'Para despachos, consultoras y empresas de servicios. Azul de confianza, cifras, casos de éxito y planes.',
 		'version'     => '1.0.0',
 		'tags'        => array( 'Empresa', 'Consultoría', 'Servicios' ),

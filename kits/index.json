@@ -31,6 +31,7 @@
             "id": "corporativo",
             "order": 2,
             "name": "Corporativo",
+            "premium": true,
             "description": "Para despachos, consultoras y empresas de servicios. Azul de confianza, cifras, casos de éxito y planes.",
             "version": "1.0.0",
             "tags": [
@@ -56,6 +57,7 @@
             "id": "calido",
             "order": 3,
             "name": "Cálido",
+            "premium": true,
             "description": "Para cafeterías, restaurantes y panaderías. Tonos tierra, tipografía con serifa, carta de precios y reservas.",
             "version": "1.0.0",
             "tags": [
@@ -81,6 +83,7 @@
             "id": "tienda",
             "order": 4,
             "name": "Tienda",
+            "premium": true,
             "description": "Para tiendas en línea de productos y regalos. Tarjetas de producto, categorías, ventajas de compra y boletín. Con WooCommerce añade carrito y catálogo real.",
             "version": "1.0.0",
             "tags": [
